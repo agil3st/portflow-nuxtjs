@@ -46,9 +46,12 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 - ✅ Remove repeatable components on all pages
 - ✅ Update routes
-- ✅ Update SEO tagging on all pages
 - ✅ Migrate detail pages (html to component)
 - ⬛ Enable rich-text on Single Story Page
+- ⬛ Redesign showcase page
+- ✅ API ready
+- ✅ SEO ready
+- ✅ Google Analytics ready
 
 ## Contributing
 
