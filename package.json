@@ -8,6 +8,19 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.2.3"
+    "@nuxtjs/tailwindcss": "^6.3.1",
+    "@tailwindcss/typography": "^0.5.9",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "autoprefixer": "^10.4.13",
+    "nuxt": "^3.2.3",
+    "postcss": "^8.4.21"
+  },
+  "dependencies": {
+    "@nuxtjs/markdownit": "^2.0.0",
+    "daisyui": "^2.50.0",
+    "markdown-it": "^13.0.1",
+    "vue-gtag-next": "^1.14.0"
   }
 }

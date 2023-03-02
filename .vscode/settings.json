@@ -3,9 +3,18 @@
         "Bulma",
         "Lineicons",
         "Nuxt",
+        "nuxtjs",
         "Picsum",
         "Playfair",
         "Portflow",
         "Pravatar"
-    ]
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "files.associations": { 
+        "*.scss": "postcss",
+        "*.css": "tailwindcss"
+    }
 }
