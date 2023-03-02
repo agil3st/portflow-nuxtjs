@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class="footer footer-center p-10 lg:pt-16 bg-base-200">
+    <footer class="footer footer-center p-10 lg:pt-16 bg-base-100">
       <div>
         <p class="font-bold">Portflow. <br />A simple portfolio web template</p>
         <p>Copyright © 2023 - All right reserved</p>

@@ -17,8 +17,8 @@
 </template>
 
 <script setup>
-const { data: articles } = await useFetch("/api/articles/get");
-console.log(articles);
+const { data: articles } = await useFetch("/api/articles/latest");
+// console.log(articles);
 </script>
 
 <style scoped></style>
