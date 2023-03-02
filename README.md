@@ -4,7 +4,7 @@
 
 ## Welcome to Portflow x NuxtJS
 
-**Portflow** is a portfolio web template build with [TailwindCSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/). By using [NuxtJS](https://nuxt.com/) v3, this will take care of the rest of *repeatable components, enable rich-content, quick navigation, optimize page speed and dynamic SEO friendly*. So this way more **recommended** for production purpose. For now, **Portflow** only provide page layouts for simple Article or Blog UI like [Medium](https://medium.com/). Any future development update will be announced on my [LinkedIn](https://www.linkedin.com/in/agil3st/) profile.
+**Portflow** is a portfolio web template build with [TailwindCSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/). By using [NuxtJS](https://nuxt.com/) v3, this will take care of the rest of _repeatable components, enable rich-content, quick navigation, optimize page speed and dynamic SEO friendly_. So this way more **recommended** for production purpose. For now, **Portflow** only provide page layouts for simple Article or Blog UI like [Medium](https://medium.com/). Any future development update will be announced on my [LinkedIn](https://www.linkedin.com/in/agil3st/) profile.
 
 > Portflow may contains another combination of components from [TailwindCSS Components](https://tailwindcomponents.com/) and DaisyUI Components
 
@@ -44,9 +44,10 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## Pages & Features
 
-- ⬛ Remove repeatable components on all pages
-- ⬛ Update routes
-- ⬛ Update SEO tagging on all pages
+- ✅ Remove repeatable components on all pages
+- ✅ Update routes
+- ✅ Update SEO tagging on all pages
+- ✅ Migrate detail pages (html to component)
 - ⬛ Enable rich-text on Single Story Page
 
 ## Contributing
@@ -72,4 +73,4 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 5. Dummy content image assets by [Picsum](https://picsum.photos/)
 6. Components reference by [TailwindComponents](https://tailwindcomponents.com/)
 
---- ***HAPPY CODING!*** ---
+--- **_HAPPY CODING!_** ---
