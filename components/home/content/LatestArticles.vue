@@ -8,7 +8,7 @@
         View All
       </a>
     </div>
-    <div class="block space-x-0 lg:flex lg:space-x-6 px-4">
+    <div class="block space-x-0 lg:flex lg:space-x-6 px-4 lg:px-0">
       <div v-for="article in articles" :key="article.id" class="w-full">
         <ArticleCardView :article="article" />
       </div>
