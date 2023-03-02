@@ -125,6 +125,25 @@ const { id } = useRoute().params;
 const { data, error } = await useFetch("/api/showcases/" + id);
 const showcase = data.value;
 // console.log(data);
+
+useHead({
+  title: showcase.title,
+  meta: [
+    { name: "title", content: showcase.title },
+    { name: "description", content: showcase.subtitle },
+    { name: "keywords", content: showcase.seo.keywords },
+    { name: "og:type", content: "website" },
+    { name: "og:url", content: "https://portflow-nuxtjs.vercel.app/" },
+    { name: "og:title", content: showcase.title },
+    { name: "og:description", content: showcase.subtitle },
+    { name: "og:image", content: showcase.image },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: "https://portflow-nuxtjs.vercel.app/" },
+    { name: "twitter:title", content: showcase.title },
+    { name: "twitter:description", content: showcase.subtitle },
+    { name: "twitter:image", content: showcase.image },
+  ],
+});
 </script>
 
 <style scoped></style>

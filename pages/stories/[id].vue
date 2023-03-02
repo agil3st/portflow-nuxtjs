@@ -142,10 +142,21 @@ const { data, error } = await useFetch("/api/articles/" + id);
 const article = data.value;
 
 useHead({
-  title: `Product ${id}`,
+  title: article.title,
   meta: [
-    { name: "description", content: "Product description" },
-    { name: "keywords", content: "keywords" },
+    { name: "title", content: article.title },
+    { name: "description", content: article.shortContent },
+    { name: "keywords", content: article.seo.keywords },
+    { name: "og:type", content: "website" },
+    { name: "og:url", content: "https://portflow-nuxtjs.vercel.app/" },
+    { name: "og:title", content: article.title },
+    { name: "og:description", content: article.shortContent },
+    { name: "og:image", content: article.image },
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:url", content: "https://portflow-nuxtjs.vercel.app/" },
+    { name: "twitter:title", content: article.title },
+    { name: "twitter:description", content: article.shortContent },
+    { name: "twitter:image", content: article.image },
   ],
 });
 </script>

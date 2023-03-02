@@ -10,6 +10,9 @@ export default defineEventHandler(async (event) => {
       image: "https://picsum.photos/id/12/500/500",
       imageXL: "https://picsum.photos/id/12/1200/640",
       date: "12 April 2022",
+      seo: {
+        keywords: "lorem1, ipsum, keyword, article, my project",
+      },
     },
     {
       id: 2,
@@ -21,6 +24,9 @@ export default defineEventHandler(async (event) => {
       image: "https://picsum.photos/id/13/500/500",
       imageXL: "https://picsum.photos/id/13/1200/640",
       date: "8 February 2023",
+      seo: {
+        keywords: "lorem2, ipsum, keyword, article, my project",
+      },
     },
     {
       id: 3,
@@ -32,6 +38,9 @@ export default defineEventHandler(async (event) => {
       image: "https://picsum.photos/id/17/500/500",
       imageXL: "https://picsum.photos/id/17/1200/640",
       date: "12 June 2021",
+      seo: {
+        keywords: "lorem3, ipsum, keyword, article, my project",
+      },
     },
     {
       id: 4,
@@ -43,6 +52,9 @@ export default defineEventHandler(async (event) => {
       image: "https://picsum.photos/id/55/500/500",
       imageXL: "https://picsum.photos/id/55/1200/640",
       date: "22 April 2021",
+      seo: {
+        keywords: "lorem4, ipsum, keyword, article, my project",
+      },
     },
     {
       id: 5,
@@ -54,6 +66,9 @@ export default defineEventHandler(async (event) => {
       image: "https://picsum.photos/id/43/500/500",
       imageXL: "https://picsum.photos/id/43/1200/640",
       date: "31 July 2021",
+      seo: {
+        keywords: "lorem5, ipsum, keyword, article, my project",
+      },
     },
     {
       id: 6,
@@ -65,6 +80,9 @@ export default defineEventHandler(async (event) => {
       image: "https://picsum.photos/id/31/500/500",
       imageXL: "https://picsum.photos/id/31/1200/640",
       date: "28 December 2022",
+      seo: {
+        keywords: "lorem6, ipsum, keyword, article, my project",
+      },
     },
   ];
   // return `API showcases ${id}`;
