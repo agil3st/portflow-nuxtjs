@@ -1,42 +1,75 @@
-# Nuxt 3 Minimal Starter
+# Portflow
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Portflow](https://i.imgur.com/fmPeTX4.jpg)
 
-## Setup
+## Welcome to Portflow x NuxtJS
 
-Make sure to install the dependencies:
+**Portflow** is a portfolio web template build with [TailwindCSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/). By using [NuxtJS](https://nuxt.com/) v3, this will take care of the rest of *repeatable components, enable rich-content, quick navigation, optimize page speed and dynamic SEO friendly*. So this way more **recommended** for production purpose. For now, **Portflow** only provide page layouts for simple Article or Blog UI like [Medium](https://medium.com/). Any future development update will be announced on my [LinkedIn](https://www.linkedin.com/in/agil3st/) profile.
+
+> Portflow may contains another combination of components from [TailwindCSS Components](https://tailwindcomponents.com/) and DaisyUI Components
+
+## Live Preview
+
+You can watch live preview on this [site](https://portflow-nuxtjs.vercel.app/). You can also subscribe for this repo releases, so you can get notification when it's updated.
+
+## Getting Started
+
+I recommend you to learn basic concept of starting [Portflow HTML template](https://github.com/agil3st/portflow) before you step forward. If you already have an experience with [JavaScript frameworks](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks), look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+### Setup
 
 ```bash
-# yarn
+# yarn (recommended)
 yarn install
-
 # npm
 npm install
-
 # pnpm
 pnpm install
 ```
 
-## Development Server
+#### Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
 ```bash
+# yarn (recommended)
+yarn dev -o
+# npm
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
+#### Production
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Pages & Features
+
+- ⬛ Remove repeatable components on all pages
+- ⬛ Update routes
+- ⬛ Update SEO tagging on all pages
+- ⬛ Enable rich-text on Single Story Page
+
+## Contributing
+
+**Portflow will grow faster** with your basic to advanced knowledge about [HTML and CSS](https://www.w3schools.com/), especially if you are experienced with [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/) or TailwindCSS itself. This is how you can be a part of this project:
+
+1. Do the steps of **Running This Project**
+2. Create a new branch (following this [best-practice](https://hackernoon.com/git-branch-naming-convention-7-best-practices-to-follow-1c2l33g2) is optional)
+3. [Create issue](https://github.com/agil3st/portflow-nuxtjs/issues) on this Repo (optional)
+4. Do some stuff like creating new feature, updating page, fixing bug or even UI adjustments
+5. Push to your branch and [create pull request (PR)](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request)
+6. Wait for my review and merge
+7. Done
+
+> Note: You can do Git stuffs on GitHub Desktop if you preferred
+
+## Attribution
+
+1. Fonts, [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) by Google Font
+2. Icons by [Lineicons](https://lineicons.com/icons/)
+3. 3D Image Assets by [Icons8](https://icons8.com/illustrations/)
+4. Dummy avatar assets by [Pravatar](https://pravatar.cc/)
+5. Dummy content image assets by [Picsum](https://picsum.photos/)
+6. Components reference by [TailwindComponents](https://tailwindcomponents.com/)
+
+--- ***HAPPY CODING!*** ---
