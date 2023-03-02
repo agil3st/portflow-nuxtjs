@@ -70,7 +70,7 @@ export default defineEventHandler(async (event) => {
   // return `API showcases ${id}`;
 
   const showcase = showcases.find((item) => item.id == id);
-  console.log(showcase);
+  // console.log(showcase);
   return showcase;
   return `API showcases ${id}`;
 

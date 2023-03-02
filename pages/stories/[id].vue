@@ -10,8 +10,7 @@
             Back
           </div>
           <h2 class="text-4xl font-semibold leading-tight text-base-800">
-            Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales,
-            massa et auctor.
+            {{ article.title }}
           </h2>
           <a
             href="#"
@@ -26,7 +25,7 @@
         </div>
 
         <img
-          src="https://images.unsplash.com/photo-1587614387466-0a72ca909e16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+          :src="article.image"
           class="w-full object-cover lg:rounded"
           style="height: 28em" />
       </div>
@@ -138,6 +137,9 @@
 <script setup>
 const router = useRouter();
 const { id } = useRoute().params;
+
+const { data, error } = await useFetch("/api/articles/" + id);
+const article = data.value;
 
 useHead({
   title: `Product ${id}`,

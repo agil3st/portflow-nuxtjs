@@ -22,22 +22,54 @@ import { NuxtLink } from '../.nuxt/components';
             <ul
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><NuxtLink to="/" class="active">Home</NuxtLink></li>
-              <li><NuxtLink to="/stories">Stories</NuxtLink></li>
-              <li><NuxtLink to="/showcase">Showcase</NuxtLink></li>
-              <li><NuxtLink to="/about">About</NuxtLink></li>
-              <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+              <li>
+                <NuxtLink to="/" class="btn nav capitalize">Home</NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/stories" class="btn nav capitalize"
+                  >Stories</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink to="/showcase" class="btn nav capitalize"
+                  >Showcase</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink to="/about" class="btn nav capitalize"
+                  >About</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink to="/contact" class="btn nav capitalize"
+                  >Contact</NuxtLink
+                >
+              </li>
             </ul>
           </div>
           <a href="/" class="btn btn-ghost normal-case text-xl">Portflow.</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 space-x-3">
-            <li><NuxtLink to="/" class="active">Home</NuxtLink></li>
-            <li><NuxtLink to="/stories">Stories</NuxtLink></li>
-            <li><NuxtLink to="/showcase">Showcase</NuxtLink></li>
-            <li><NuxtLink to="/about">About</NuxtLink></li>
-            <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+            <li><NuxtLink to="/" class="btn nav capitalize">Home</NuxtLink></li>
+            <li>
+              <NuxtLink to="/stories" class="btn nav capitalize"
+                >Stories</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink to="/showcase" class="btn nav capitalize"
+                >Showcase</NuxtLink
+              >
+            </li>
+            <li>
+              <NuxtLink to="/about" class="btn nav capitalize">About</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="/contact" class="btn nav capitalize"
+                >Contact</NuxtLink
+              >
+            </li>
           </ul>
         </div>
         <div class="navbar-end">
