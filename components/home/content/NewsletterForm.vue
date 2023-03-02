@@ -3,9 +3,9 @@
     <div class="flex mt-5 lg:mt-14">
       <img
         src="https://images.unsplash.com/photo-1579275542618-a1dfed5f54ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"
-        class="w-0 md:w-1/4 object-cover rounded-l" />
-      <div class="px-4 py-4 lg:px-12">
-        <h3 class="text-2xl lg:text-3xl text-gray-200 font-bold lg:mt-5">
+        class="w-0 md:w-1/4 object-cover rounded rounded-l" />
+      <div class="px-4 py-4 lg:px-6">
+        <h3 class="text-2xl lg:text-3xl text-gray-200 font-bold lg:mt-2">
           Subscribe my newsletter!
         </h3>
         <p class="text-sm text-gray-300">
