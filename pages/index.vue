@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-base-200 pb-8">
     <HomeLandingHero />
 
     <HomeContent />
