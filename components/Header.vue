@@ -1,3 +1,4 @@
+import { NuxtLink } from '../.nuxt/components';
 <template>
   <div>
     <div class="relative">
@@ -21,22 +22,22 @@
             <ul
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a href="/" class="active">Home</a></li>
-              <li><a href="stories.html">Stories</a></li>
-              <li><a href="showcase.html">Showcase</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><NuxtLink to="/" class="active">Home</NuxtLink></li>
+              <li><NuxtLink to="/stories">Stories</NuxtLink></li>
+              <li><NuxtLink to="/showcase">Showcase</NuxtLink></li>
+              <li><NuxtLink to="/about">About</NuxtLink></li>
+              <li><NuxtLink to="/contact">Contact</NuxtLink></li>
             </ul>
           </div>
           <a href="/" class="btn btn-ghost normal-case text-xl">Portflow.</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1 space-x-3">
-            <li><a href="/" class="active">Home</a></li>
-            <li><a href="stories.html">Stories</a></li>
-            <li><a href="showcase.html">Showcase</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><NuxtLink to="/" class="active">Home</NuxtLink></li>
+            <li><NuxtLink to="/stories">Stories</NuxtLink></li>
+            <li><NuxtLink to="/showcase">Showcase</NuxtLink></li>
+            <li><NuxtLink to="/about">About</NuxtLink></li>
+            <li><NuxtLink to="/contact">Contact</NuxtLink></li>
           </ul>
         </div>
         <div class="navbar-end">

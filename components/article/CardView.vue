@@ -9,11 +9,11 @@
         {{ article.shortContent }}
       </p>
 
-      <a
-        href="story.html"
+      <NuxtLink
+        :to="`/stories/${article.id}`"
         class="btn bg-indigo-600 hover:bg-indigo-700 border-none py-2 rounded text-indigo-200 mt-2 ml-auto">
         Read more
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
