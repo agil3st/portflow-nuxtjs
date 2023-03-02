@@ -136,8 +136,8 @@
 </template>
 
 <script setup>
-const { id } = useRoute().params;
 const router = useRouter();
+const { id } = useRoute().params;
 
 useHead({
   title: `Product ${id}`,

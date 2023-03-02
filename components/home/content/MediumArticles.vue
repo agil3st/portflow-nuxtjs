@@ -19,7 +19,7 @@
 
 <script setup>
 const { data: articles } = await useFetch("/api/articles/medium/get");
-console.log(articles);
+// console.log(articles);
 </script>
 
 <style scoped></style>
