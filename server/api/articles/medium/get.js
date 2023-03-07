@@ -27,6 +27,16 @@ export default defineEventHandler(async (event) => {
         "Set indulgence inquietude discretion insensible bed why announcing. Middleton fat two satisfied additions. So continued he or commanded household smallness delivered. Door poor on do walk in half. Roof his head the what. Set indulgence inquietude discretion insensible bed why announcing. Middleton fat two satisfied additions. So continued he or commanded household smallness delivered. Door poor on do walk in half. Roof his head the what.",
       image: "https://picsum.photos/id/12/500/500",
     },
+    {
+      id: 4,
+      title:
+        "Lorem ipsum medium title inquietude discretion insensible bed why",
+      shortContent:
+        "Set indulgence inquietude discretion insensible bed why announcing. Middleton fat two satisfied additions. So continued he or commanded household smallness delivered. Door poor on do walk in half. Roof his head the what.",
+      content:
+        "Set indulgence inquietude discretion insensible bed why announcing. Middleton fat two satisfied additions. So continued he or commanded household smallness delivered. Door poor on do walk in half. Roof his head the what. Set indulgence inquietude discretion insensible bed why announcing. Middleton fat two satisfied additions. So continued he or commanded household smallness delivered. Door poor on do walk in half. Roof his head the what.",
+      image: "https://picsum.photos/id/31/500/500",
+    },
   ];
 
   return articles;
