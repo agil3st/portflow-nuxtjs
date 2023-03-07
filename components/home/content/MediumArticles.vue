@@ -6,11 +6,11 @@
         View More
       </a>
     </div>
-    <div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
       <div
         v-for="article in articles"
         :key="article.id"
-        class="grid grid-cols-6 lg:grid-cols-12 gap-3 w-full px-4 pb-4 lg:px-0">
+        class="w-full px-4 pb-4 lg:px-0">
         <ArticleMediumView :article="article" />
       </div>
     </div>
