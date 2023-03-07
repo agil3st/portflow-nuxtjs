@@ -1,6 +1,9 @@
 <template>
   <section class="bg-base-200">
     <div class="max-w-screen-lg mx-auto">
+      <!-- my tools -->
+      <HomeContentMyTools />
+      <!-- end my tools -->
       <!-- recent posts -->
       <HomeContentLatestArticles />
       <!-- end recent posts -->
