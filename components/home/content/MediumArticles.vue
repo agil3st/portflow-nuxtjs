@@ -2,9 +2,13 @@
   <section>
     <div class="flex mt-16 mb-4 px-4 lg:px-0 items-center justify-between">
       <h2 class="font-bold text-white text-3xl">From Medium</h2>
-      <a class="text-indigo-300 hover:text-indigo-400 px-3 py-1 cursor-pointer">
+
+      <NuxtLink
+        :to="me.link"
+        target="_blank"
+        class="text-indigo-300 hover:text-indigo-400 px-3 py-1 cursor-pointer">
         View More
-      </a>
+      </NuxtLink>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-6">
       <div
@@ -19,6 +23,7 @@
 
 <script setup>
 const { data: articles } = await useFetch("/api/articles/medium/get");
+const { data: me } = await useFetch("/api/articles/medium/me");
 // console.log(articles);
 </script>
 
