@@ -4,6 +4,9 @@
       <!-- my tools -->
       <HomeContentMyTools />
       <!-- end my tools -->
+      <!-- recent work -->
+      <HomeContentRecentWork />
+      <!-- end recent work -->
       <!-- recent posts -->
       <HomeContentLatestArticles />
       <!-- end recent posts -->
