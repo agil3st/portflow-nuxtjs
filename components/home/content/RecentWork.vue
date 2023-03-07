@@ -8,7 +8,7 @@
         View All
       </NuxtLink>
     </div>
-    <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
       <div v-for="(showcase, index) in showcases" :key="index">
         <img :src="showcase.image" alt="" class="rounded-lg" />
       </div>
