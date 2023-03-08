@@ -12,6 +12,15 @@
 
 You can watch live preview on this [site](https://portflow-nuxtjs.vercel.app/). You can also subscribe for this repo releases, so you can get notification when it's updated.
 
+## FAQ
+
+> **Q: How to use this project as my own portfolio website?**
+> **A:** You can [fork this repo](https://github.com/agil3st/portflow-nuxtjs/fork) then follow **Getting Started** section
+> **Q: Is it free of use for unlimited projects?**
+> **A:** Yes, you can use it free forever for unlimited projects!
+> **Q: Should I use attribution on my website?**
+> **A:** No. But if you like to support this repo, you can add attribution on your footer section
+
 ## Getting Started
 
 I recommend you to learn basic concept of starting [Portflow HTML template](https://github.com/agil3st/portflow) before you step forward. If you already have an experience with [JavaScript frameworks](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks), look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
@@ -57,7 +66,7 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 **Portflow will grow faster** with your basic to advanced knowledge about [HTML and CSS](https://www.w3schools.com/), especially if you are experienced with [Bootstrap](https://getbootstrap.com/), [Bulma](https://bulma.io/) or TailwindCSS itself. This is how you can be a part of this project:
 
-1. Do the steps of **Running This Project**
+1. Follow steps of **Getting Started** section
 2. Create a new branch (following this [best-practice](https://hackernoon.com/git-branch-naming-convention-7-best-practices-to-follow-1c2l33g2) is optional)
 3. [Create issue](https://github.com/agil3st/portflow-nuxtjs/issues) on this Repo (optional)
 4. Do some stuff like creating new feature, updating page, fixing bug or even UI adjustments
