@@ -1,6 +1,6 @@
 # Portflow
 
-![Portflow](https://i.imgur.com/lCyiSCa.png)
+![Portflow](https://i.imgur.com/WEr49Bj.jpg)
 
 ## Welcome to Portflow x NuxtJS
 
