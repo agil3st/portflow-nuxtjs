@@ -1,6 +1,6 @@
 # Portflow
 
-![Portflow](https://i.imgur.com/lCyiSCa.png)
+![Portflow](https://i.imgur.com/WEr49Bj.jpg)
 
 ## Welcome to Portflow x NuxtJS
 
@@ -14,11 +14,11 @@ You can watch live preview on this [site](https://portflow-nuxtjs.vercel.app/). 
 
 ## FAQ
 
-> **Q: How to use this project as my own portfolio website?**
-> **A:** You can [fork this repo](https://github.com/agil3st/portflow-nuxtjs/fork) then follow **Getting Started** section
-> **Q: Is it free of use for unlimited projects?**
-> **A:** Yes, you can use it free forever for unlimited projects!
-> **Q: Should I use attribution on my website?**
+> **Q: How to use this project as my own portfolio website?**\
+> **A:** You can [fork this repo](https://github.com/agil3st/portflow-nuxtjs/fork) then follow **Getting Started** section\
+> **Q: Is it free of use for unlimited projects?**\
+> **A:** Yes, you can use it free forever for unlimited projects!\
+> **Q: Should I use attribution on my website?**\
 > **A:** No. But if you like to support this repo, you can add attribution on your footer section
 
 ## Getting Started
